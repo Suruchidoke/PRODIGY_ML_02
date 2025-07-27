@@ -1,7 +1,7 @@
 🍴 Food Calorie Estimator using CNN
 This project identifies food items from images and estimates their calorie content using a Convolutional Neural Network (CNN) trained on the Food-101 dataset.
 
-📌 Project By: Suruchi
+📌 Project By: Suruchi 
 🤖 Role: Machine Learning Intern
 🏢 Organization: Prodigy Infotech
 📁 Task: Task 2 – Food Calorie Estimation
