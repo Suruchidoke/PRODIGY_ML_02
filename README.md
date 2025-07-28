@@ -1,44 +1,62 @@
-🍴 Food Calorie Estimator using CNN
-This project identifies food items from images and estimates their calorie content using a Convolutional Neural Network (CNN) trained on the Food-101 dataset.
+🧠 Task 02 – Customer Segmentation using K-Means Clustering
+Intern Name: Suruchi
+Company: Prodigy InfoTech – Machine Learning Internship
 
-📌 Project By: Suruchi 
-🤖 Role: Machine Learning Intern
-🏢 Organization: Prodigy Infotech
-📁 Task: Task 2 – Food Calorie Estimation
+📌 Problem Statement
+Create a K-Means clustering algorithm to group retail store customers based on their:
 
-📊 Overview
-📸 Input: Food image
-🥘 Output: Food name + Estimated calories
-🧠 Model: CNN using TensorFlow/Keras
-📂 Dataset: Food-101 (custom preprocessed subset)
+Annual Income
 
-✅ Results
-Trained on multiple classes with high accuracy
+Spending Score
 
-Calorie estimation mapped from identified class using custom lookup
+This helps businesses identify and target different customer segments more efficiently.
 
-Visual outputs of predictions with food label and calorie info
+📊 Dataset
+Dataset used for this project:
+🔗 Customer Segmentation Tutorial (Kaggle)
 
-🛠️ Tools & Libraries
-Python
+🛠️ Tools & Technologies
+Python 🐍
 
-TensorFlow / Keras
+Libraries:
+Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
 
-Pandas, NumPy
+📈 Methodology
+Data Preparation: Used synthetic data for 200 customers with attributes – income & spending score.
 
-Matplotlib, OpenCV
+Visualization:
 
-Scikit-learn
+Scatter plot for customer distribution
 
-📌 Highlights
-Data preprocessing and augmentation
+Correlation heatmap
 
-CNN model training and evaluation
+Elbow Method:
 
-Mapping food classes to calories using a lookup table
+To find the optimal number of clusters (k)
 
-Displaying results with visual figures
+Clustering with K-Means:
 
-✅ Task 2 successfully completed as part of the Machine Learning Internship at Prodigy Infotech.
-Grateful to @ProdigyInfotech for another exciting learning experience!
+Applied K-Means with k=5 clusters
+
+Visualization:
+
+Final cluster visualization with centroids
+
+🔍 Output Snippets
+📊 Elbow Method Graph
+
+🟢 Clustered Scatter Plot with Centroids
+
+💻 Code Example
+python
+Copy
+Edit
+kmeans = KMeans(n_clusters=5, init='k-means++', random_state=42)
+data['Cluster'] = kmeans.fit_predict(X)
+🧠 Key Insights
+Successfully segmented customers into 5 meaningful clusters.
+
+Helps retail business analyze spending behavior.
+
+Useful for targeted marketing and strategic decision-making.
 
